@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en"
+xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" href="developer.png" type="image/gif/png">
+	<link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HS Wijemanna - Portfolio</title>
+    <style>
+        body {
+            background-image: url(''); /* Set your background image */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        body {
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                background-image: url('bg.jpg');
+            }
+        }
+
+        a {
+    color: inherit; /* Inherit the text color from its parent element */
+ }
+
+        .text-box {
+            background: rgba(0, 0, 0, 0.8); /* Black color with low opacity */
+            border-radius: 15px; /* Rounded corners */
+            padding: 20px;
+            text-align: left;
+            color: white;
+            max-width: 80vw;
+        }
+
+        .text-box-1 {
+            background: rgb(255, 255, 255, 0.5); /* Black color with low opacity */
+            border-radius: 15px; /* Rounded corners */
+            padding: 20px;
+            text-align: left;
+            color: white;
+            max-width: 80vw;
+        }
+
+        
+        /* Added styles for the navigation bar */
+        #navbar {
+            display: flex;
+            background: var(--secondary-color);
+        }
+        
+        #navbar a {
+            font-size: 24px;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        
+        /* Mobile responsive styles */
+        @media (max-width: 768px) {
+            #navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            #navbar a {
+                padding: 10px;
+                font-size: 20px;
+            }
+        }
+
+
+
+        body {
+        padding: 40px;
+        background-color: #666666;
+      }
+      #main {
+        height: 40px;
+        white-space: nowrap;
+        overflow: hidden;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 28px;
+        color: rgba(255, 255, 255, .70);
+        position: relative;
+      }
+      #border {
+        border-bottom: solid 3px rgba(0, 255, 0, .75);
+        position: absolute;
+        right: -7px;
+        width: 20px;
+      }
+      /* Animation */
+      #main {
+        animation: animated-text 2s steps(30, end) 1s 1 normal both
+      }
+      #border {
+        animation: animated-cursor 600ms steps(30, end) infinite;
+      }
+      /* text animation */
+      @keyframes animated-text {
+        from {
+          width: 0;
+        }
+        to {
+          width: 480px;
+        }
+      }
+      /* cursor animations */
+      @keyframes animated-cursor {
+        from {
+          border-bottom-color: rgba(0, 255, 0, .75);
+        }
+        to {
+          border-bottom-color: transparent;
+        }
+      }
+
+    </style>
+</head>
+<body>  
+
+    <nav id="navbar" class="menu">
+            <a href="#first" class="active"><i class="far fa-user"></i></a>
+            <a href="#second"><i class="far fa-file"></i></a>
+            <a href="#third"><i class="fas fa-briefcase"></i></a>
+            <a href="#fourth"><i class="far fa-address-card"></i></a>
+    </nav>
+
+    <div class="text-box">
+    <div id="main">
+        <b>&nbsp;&nbsp;Welcome..!</b>
+        <div id="border"></div>
+      </div>
+    </div>
+    
+      <div class= 'container'> 
+       <section id= 'first'>
+        <right>
+        <div class="text-box">
+            <font face="Times New Roman">
+            <h2><i><u>Portfolio</u></i></h2><br><br>
+            <img src="HS Wijemanna.jpg" alt="HS Wijemanna" class="rounded-outlined-image">
+            <br><br>
+            <h3>Hashan Sanjaya Wijemanna</h3><br>
+            
+            <p>I am a full-stack software developer from Sri Lanka, currently pursuing a BSc in Computer Networking at the <a href="https://www.nsbm.ac.lk/">National School of Business Management (NSBM)</a>. I am also an undergraduate student at <a href="https://www.plymouth.ac.uk/">Plymouth University, UK</a>.</p>
+            <br>
+            <h4>Educational Background</h4>
+            <p>I studied at <a href="https://taxilappa.org/taxila-central-collage/">Taxila Central College in Horana, Sri Lanka</a>. Currently, I am completing my degree in Computer Networking.</p>
+            <br>
+            <h4>Skills</h4>
+            <p>As a full-stack developer, I have expertise in web development, database management, and a range of programming languages. My skills include HTML, CSS, JavaScript, PHP, Python, and more.</p>
+            <br></font>
+            <center><h6>&copy; Hashan Wijemanna</h6></center>
+        </div>
+    </right>
+       </section>
+       
+       <section id= 'second'>
+        <div class="text-box">
+            <font face="Times New Roman"><br><br><br><br><br><br>
+                
+                <div class="slider-container">
+                    <div class="slider">
+                        <img src="certificate/379453841_122111037824036698_893932051000061858_n.jpg" alt="Image 1">
+                        <img src="certificate/379669461_122111037818036698_4629801446533647206_n.jpg" alt="Image 2">
+                        <img src="certificate/381109488_122110972748036698_3819309219361944390_n.jpg" alt="Image 3">
+                        <img src="certificate/381204281_122110979960036698_2036723677275320811_n.jpg" alt="Image 4">
+                    </div>
+                    
+                </div>
+                <div class="slider-buttons">
+                    <button id="prevButton"></button>
+                    <button id="nextButton"></button>
+                </div>
+            </center>
+            </font><br><br>
+            <center><h6>&copy; Hashan Wijemanna</h6></center>
+        </div>
+       </section>
+       
+      <section id= 'third'>
+        <right>
+            <div class="text-box">
+                <font face="Times New Roman">
+                <h2><i><u>Projects</u></i></h2><br><br>
+                <a href="https://ephysicsproto2.000webhostapp.com/index.html" target="_blank"><img src="projects/ephysics.jpg" width="200" height="50"></a>
+                <p>This is an online learning platform for school students to enhance their skills in Advance Level Physics. This is our effort to taking education to next level with technology.</p>
+                <p>We believe access to education is human right and Online learning should be fun and safe expirience. The platform aim to provide free access to school Advance Level students. Education means everything to us. So it feels extra awesome when you educate at E - Physics.</p>
+            </font><br><br>
+                <center><h6>&copy; Hashan Wijemanna</h6></center>
+            </div>
+        </right>
+       </section>
+       
+      <section id= 'fourth'>
+        <right>
+            <div class="text-box-1">
+                <font face="Times New Roman" color="black">
+                <h2><i><u>Contact Me</u></i></h2><br><br>
+                <div class="content">
+                    <center><br><br><br>
+                    <img src="contact.gif" height=200 width=250><br><br><br>
+                    <a href="tel:+94768497721" target="_blank" rel="noopener noreferrer">
+                    <img src="phone.png" width=50 height=50 alt="phone link"></a>
+                    <a href="https://www.facebook.com/hswijemanna" target="_blank" rel="noopener noreferrer">
+                    <img src="facebook.png" width=50 height=50 alt="facebook link"></a>
+                    <a href = "mailto: hswijemanna@outlook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="email.png" width=50 height=50 alt="mail link"></a>
+                    <a href="https://github.com/hashanwijemanna" target="_blank" rel="noopener noreferrer">
+                    <img src="github.png" width=50 height=50 alt="github link"></a>
+                    <a href="https://goo.gl/maps/gHZAY5YJ1APzZBXd9" target="_blank" rel="noopener noreferrer">
+                    <img src="location.png" width=50 height=50 alt="location link"></a>
+                    
+                    <br><br><br>
+                    </center>
+                </div>
+                </font><br><br>
+                <center><h6>&copy; Hashan Wijemanna</h6></center>
+            </div>
+        </right>
+       </section>
+     </div>
+
+
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
