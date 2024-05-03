@@ -264,7 +264,7 @@ a {
     width: 90%;
     background-position: center;
     background-size: cover;
-    background-image: url("hero-img.png");
+    background-image: url("/assets/img/hero-img.png");
     z-index: 1;
     left: 0;
     right: 0;
@@ -605,7 +605,7 @@ a {
     position: relative;
     height: 500px;
     aspect-ratio: 413/531;
-    background-image: url("/hero-img.png");
+    background-image: url("/assets/img/hero-img.png");
     background-position: center;
     background-size: cover;
 
@@ -911,32 +911,32 @@ a {
 }
 
 #project-card-1 {
-    background-image: url("/1.png");
+    background-image: url("/assets/img/projects/1.png");
 
 }
 
 #project-card-2 {
-    background-image: url("/2.png");
+    background-image: url("/assets/img/projects/2.png");
 
 }
 
 #project-card-3 {
-    background-image: url("/3.png");
+    background-image: url("/assets/img/projects/3.png");
 
 }
 
 #project-card-4 {
-    background-image: url("/4.png");
+    background-image: url("/assets/img/projects/4.png");
 
 }
 
 #project-card-5 {
-    background-image: url("/5.png");
+    background-image: url("/assets/img/projects/5.png");
 
 }
 
 #project-card-6 {
-    background-image: url("/6.png");
+    background-image: url("/assets/img/projects/6.png");
 
 }
 
